@@ -1,5 +1,6 @@
 {
   "name": "transaction-chain",
+  "description": "A simple way to chain actions and revert them if any fails",
   "version": "0.0.1",
   "main": "index.js",
   "author": "kalvin <kalvinarts@protonmail.com>",
