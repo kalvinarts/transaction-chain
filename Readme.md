@@ -10,6 +10,8 @@
 
 See the `example.js` in the root directory.
 
+For __browsers__ or old [NodeJS](https://nodejs.org) versions, you can import `transaction-chain/browser` or use [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) and [@babel/plugin-proposal-object-rest-spread](https://babeljs.io/docs/en/babel-plugin-proposal-object-rest-spread) match the targets you want.
+
 ### LICENSE
 
 ```

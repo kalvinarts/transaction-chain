@@ -2,16 +2,22 @@
   "name": "transaction-chain",
   "description": "A simple way to chain actions and revert them if any fails",
   "repository": "https://github.com/kalvinarts/transaction-chain",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
+  "browser": "browser/index.js",
   "author": "kalvin <kalvinarts@protonmail.com>",
   "license": "BSD-3-Clause",
   "private": false,
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "node-fetch": "^2.2.0",
     "nodemon": "^1.18.3"
   },
   "scripts": {
-    "start": "nodemon example.js"
+    "start": "nodemon example.js",
+    "browser": "babel index.js -d browser"
   }
 }
