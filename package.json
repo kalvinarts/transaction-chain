@@ -4,7 +4,6 @@
   "repository": "https://github.com/kalvinarts/transaction-chain",
   "version": "0.0.3",
   "main": "index.js",
-  "browser": "browser/index.js",
   "author": "kalvin <kalvinarts@protonmail.com>",
   "license": "BSD-3-Clause",
   "private": false,
