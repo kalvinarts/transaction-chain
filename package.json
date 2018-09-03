@@ -1,6 +1,7 @@
 {
   "name": "transaction-chain",
   "description": "A simple way to chain actions and revert them if any fails",
+  "repository": "https://github.com/kalvinarts/transaction-chain",
   "version": "0.0.1",
   "main": "index.js",
   "author": "kalvin <kalvinarts@protonmail.com>",
