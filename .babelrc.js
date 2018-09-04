@@ -7,7 +7,7 @@ module.exports = {
           browsers: ['last 4 versions', 'safari 8']
         },
         useBuiltIns: 'usage',
-        debug: true,
+        debug: false,
       }
     ]
   ],
@@ -16,7 +16,7 @@ module.exports = {
       '@babel/plugin-proposal-object-rest-spread',
       {
         useBuiltIns: 'usage',
-        debug: true,
+        debug: false,
       }
     ],
   ]
