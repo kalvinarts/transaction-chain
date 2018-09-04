@@ -1,5 +1,33 @@
 "use strict";
 
+require("core-js/modules/es6.promise");
+
+require("core-js/modules/es6.array.filter");
+
+require("core-js/modules/es6.array.index-of");
+
+require("core-js/modules/es6.object.keys");
+
+require("core-js/modules/es6.object.define-property");
+
+require("core-js/modules/es6.object.set-prototype-of");
+
+require("core-js/modules/es6.object.create");
+
+require("core-js/modules/es7.symbol.async-iterator");
+
+require("core-js/modules/es6.symbol");
+
+require("core-js/modules/es6.array.iterator");
+
+require("regenerator-runtime/runtime");
+
+require("core-js/modules/web.dom.iterable");
+
+require("core-js/modules/es6.array.for-each");
+
+require("core-js/modules/es6.array.is-array");
+
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }

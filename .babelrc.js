@@ -1,16 +1,23 @@
 module.exports = {
   presets: [
     [
-      "@babel/preset-env",
+      '@babel/preset-env',
       {
-        targets: "> 0.25%, not dead",
+        targets: {
+          browsers: ['last 4 versions', 'safari 8']
+        },
+        useBuiltIns: 'usage',
+        debug: true,
       }
     ]
   ],
   plugins: [
     [
-      "@babel/plugin-proposal-object-rest-spread",
-      { "useBuiltIns": true }
+      '@babel/plugin-proposal-object-rest-spread',
+      {
+        useBuiltIns: 'usage',
+        debug: true,
+      }
     ],
   ]
 }
